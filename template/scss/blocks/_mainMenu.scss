@@ -1,0 +1,25 @@
+.b-mainMenu {
+  background: #81b300;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  @include media-breakpoint-down(lg) {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  &__list {
+    text-transform: uppercase;
+    color: #fff;
+    padding-right: 15px;
+    transition-duration: 0.5s;
+    text-decoration: none;
+
+    &:hover {
+      color: #000;
+      text-decoration: none;
+    }
+  }
+}

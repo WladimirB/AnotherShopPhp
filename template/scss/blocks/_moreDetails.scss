@@ -1,0 +1,16 @@
+.b-moreDetails {
+    display: block;
+    padding: 20px 0;
+    text-decoration: none;
+    text-align: right;
+    color: #81b300;
+    text-transform: capitalize;
+    font-size: 14px;
+    transition-duration: 0.5s;
+    padding-right: 25px;
+    
+    &:hover {
+        color: #333;
+        text-decoration: underline;
+    }
+}

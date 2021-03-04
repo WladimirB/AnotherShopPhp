@@ -1,0 +1,20 @@
+.b-projectBox {
+    
+    &__img {
+        width: 100%;
+    }
+    
+    &__header {
+        color: #444;
+        font-size: 14px;
+        padding: 20px 0;
+        text-transform: capitalize;
+    }
+    
+    &__desc {
+        color: #878787;
+        font-size: 14px;
+        line-height: 20px;
+        
+    }
+}

@@ -1,0 +1,53 @@
+@import "../packages/bootstrap-4.1.1/scss/bootstrap";
+
+
+@import "blocks/_header.scss";
+@import "blocks/_social.scss";
+@import "blocks/_logoName.scss";
+@import "blocks/_loginNav.scss";
+@import "blocks/_mainMenu.scss";
+@import "blocks/_sitesearch.scss";
+@import "blocks/_mainSlider.scss";
+@import "blocks/_properties.scss";
+@import "blocks/_property.scss";
+@import "blocks/_fullWidthDivider.scss";
+@import "blocks/_projectBox.scss";
+@import "blocks/_projectBoxItem.scss";
+@import "blocks/_moreDetails.scss";
+@import "blocks/_footer.scss";
+
+
+/*
+@import "blocks/_content.less";*/
+
+
+html, body {
+    min-height: 100%;
+}
+
+body {
+    margin: 0 auto;
+    background: #1f1f1f;
+    font-family: "Georgia Regular";
+    src: url(../fonts/Georgia_Regular.ttf);
+}
+
+.topline {
+    height: 5px;
+    background: #81b300;
+    margin: 0;
+}
+
+.container {
+    background: #fff;
+    width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 0;
+    
+    @include media-breakpoint-down(md) {
+        margin: 0 auto;
+    }
+}

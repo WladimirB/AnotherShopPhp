@@ -1,0 +1,16 @@
+.container {
+    margin: 0 auto;
+    width: 1000px;
+    padding-left: 0!important;
+    padding-right: 0!important;
+    
+    nav {
+        display: flex;
+        justify-content: center;
+    }    
+}
+
+.row {
+    margin: 0;
+    padding: 0;
+}

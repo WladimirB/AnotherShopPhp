@@ -1,0 +1,47 @@
+.b-property {
+    
+    &__element {
+        text-align: center;
+        
+        ul.list-group {
+            
+            li {
+                background-color: #fff;
+                
+                a {
+                    
+                    &.active {
+                        background-color: #81b300;
+                        border-color: #eaeaea;
+                    }
+                }
+            }
+        }
+        &:nth-child(n+3) {
+            @include media-breakpoint-down(sm) {
+            padding-top: 20px;
+            }
+        }
+    }
+    
+    &__img {
+        width: 150px;
+        height: 200px;
+    }
+    
+    &__header {
+        padding: 20px;
+        color: #81b300;
+        font-size: 18px;
+        height: 100px;
+        a {
+            color: #000;
+        }
+    }
+    
+    &__btn {
+        a.btn-succses {
+           background-color: #81b300; 
+        }
+    }
+}
